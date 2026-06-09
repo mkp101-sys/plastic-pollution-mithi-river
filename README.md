@@ -151,7 +151,6 @@ Plastic-Pollution-Mithi-River/
 │
 ├── images/
 │   ├── study_area.png
-│   ├── workflow.png
 │   ├── plastic_2017.png
 │   ├── plastic_2023.png
 │   └── change_detection.png
