@@ -43,7 +43,84 @@ The study focuses on the Mithi River, Mumbai, Maharashtra, India. The river flow
 
 ## Workflow
 
-![Workflow](images/workflow.png)
+## Workflow
+
+```text
+Sentinel-2 Imagery
+        │
+        ▼
+Area of Interest (AOI) Selection
+        │
+        ▼
+Cloud Masking & Image Preprocessing
+        │
+        ▼
+Water Body Extraction
+        │
+        ▼
+Floating Debris Index (FDI) Calculation
+        │
+        ▼
+Threshold-Based Plastic Detection
+        │
+        ▼
+Plastic Pollution Mapping
+        │
+        ▼
+Statistical Analysis
+        │
+        ▼
+Temporal Comparison (2017 vs 2023)
+        │
+        ▼
+Results and Interpretation
+```
+
+### Workflow Description
+
+1. **Area of Interest (AOI) Selection**
+
+   * Define the Mithi River study area in Google Earth Engine.
+
+2. **Satellite Data Acquisition**
+
+   * Acquire Sentinel-2 Surface Reflectance imagery for 2017 and 2023.
+
+3. **Cloud Masking**
+
+   * Remove cloud-contaminated pixels to improve image quality.
+
+4. **Water Body Extraction**
+
+   * Identify water-covered pixels and mask non-water regions.
+
+5. **FDI Calculation**
+
+   * Compute the Floating Debris Index (FDI) to highlight floating materials on the water surface.
+
+6. **Plastic Detection**
+
+   * Apply threshold values to identify potential floating plastic debris.
+
+7. **Plastic Pollution Mapping**
+
+   * Generate spatial distribution maps showing plastic accumulation zones.
+
+8. **Statistical Analysis**
+
+   * Calculate mean FDI values and quantify plastic-contaminated pixels.
+
+9. **Temporal Comparison**
+
+   * Compare results between 2017 and 2023 to evaluate changes in pollution patterns.
+
+10. **Interpretation**
+
+    * Analyze trends and identify persistent pollution hotspots within the Mithi River.
+
+```
+```
+
 
 ## Results
 
